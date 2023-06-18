@@ -1,4 +1,4 @@
-name= 홍진영
+name= "홍진영"
 print(name)
 
 a=10
@@ -13,7 +13,7 @@ print(year, month, day, sep="/")
 hp1="010"
 hp2="1234"
 hp3="5678"
-print(hp1, hp2, hp3, sep"-")
+print(hp1, hp2, hp3, sep="-")
 
 price= 1000
 print(price,"원")
