@@ -1,0 +1,6 @@
+b=int(input())
+a=int(input())
+print(b * (a%10))
+print(b * ((a // 10) % 10))
+print(b * (a // 100))
+print(a * b)
