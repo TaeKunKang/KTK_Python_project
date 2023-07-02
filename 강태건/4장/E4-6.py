@@ -1,8 +1,4 @@
-print("-"*50)
-print("%7s %7s %7s" %("킬로그램", "파운드", "온스"))
-print("-"*50)
-for kg in range(100,201,2):
-    pound= kg*2.204623
-    ounce= kg*35.273962
-    print("     %d        %.1f      %.1f" %(kg, pound, ounce))
-print("-"*50)
+sum=1
+for i in range(1,11):
+    sum=sum*i
+print("10! = %d" %sum)

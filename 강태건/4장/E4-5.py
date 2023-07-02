@@ -1,7 +1,5 @@
-number=input("숫자를 입력하세요:")
-total=0
-for a in number:
-    a=int(a)
-    if a%2==1:
-        total=total+1
-print("홀수의 개수: %d개" %total)
+sum=0 
+for i in range(1,101):
+    if i%4==0:
+        sum=sum+i
+        print("%d-->%d" %(i, sum))

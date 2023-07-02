@@ -1,8 +1,5 @@
-print("-"*40)
-print("   cm   mm   m   inch")
-print("-"*40)
-for cm in range(1,101):
-    mm=cm*10.0
-    m=cm*0.01
-    inch=cm*0.3937
-    print("   %d   %d   %.2f   %d" %(cm,mm,m,inch))
+sum=0
+for i in range(1,101):
+    if i%3==0:
+        sum=sum+i
+print("1~100까지의 3의배수 합계:", sum)
