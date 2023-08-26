@@ -10,3 +10,6 @@ while n<=100:
         if count%10==0:
             print()
     n=n+1
+
+
+map(int, input().split())
